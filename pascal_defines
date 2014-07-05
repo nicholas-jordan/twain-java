@@ -1,0 +1,16 @@
+/* Everything else... */ 
+#else
+    #define PASCAL
+    #define FAR
+    typedef void* TW_HANDLE;
+    typedef void* TW_MEMREF;
+    typedef unsigned char BYTE;
+
+    #ifdef TWH_32BIT
+      //32 bit GNU
+      typedef unsigned long      TW_UINTPTR;
+    #else
+      //64 bit GNU
+      typedef unsigned long long TW_UINTPTR;
+    #endif
+#endif
