@@ -1,0 +1,18 @@
+package erickson;
+//
+// Objectives of the TWAIN Working Group and standard include:
+// 
+// Ensure image-handling software and hardware compatibility
+// Keep the specification current with the state of current software and hardware while maintaining backward compatibility
+// Provide multiple-platform support
+// Maintain and distribute a no-charge developer's toolkit
+// Ensure ease of implementation
+// Encourage widespread adoption
+// Open Source Data Source Manager
+// LGPL Open Source License
+// BSD Open Source Sample Application and Sample Data Source Application
+
+class TWAIN
+{
+    ;
+}
